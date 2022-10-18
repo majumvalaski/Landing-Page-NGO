@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro Projeto</title>
+    <title>Landing Page ONG crianças</title>
 </head>
 <body>
-    <header> Minha Landing Page</header>
-    <main> Aqui vai o conteúdo </main>
-    <footer> Mais informações em breve</footer>
+    <h1> Lugar de criança é onde existe alegria </h1>
+    <img src ="/Users/mariajuliamanassesvalaski/Documents/DEV/Mentoria Dev /Primeiro projeto/img/logo_ong.png"/>
+
+    <h2> Será um prazer ter sua criança brincando 
+        <p>e aprendendo junto com a gente </p>
+    </h2>
+
+    <h3> Registre os dados da sua criança</h3>
+
+    <form action="">
+        <div>
+            <p> <label> Nome </label> </p>
+            <input id = "firstname" placeholder="Maria">
+            <p> <label> Sobrenome </label> </p> 
+            <input id = "lastname" placeholder="Silva"> 
+            <p> <label> Data de nascimento </label> </p> 
+            <input id = "birthday" placeholder="DD/MM/AAAA">
+            <p> <label> Email do responsável legal </label> </p> 
+            <input id = "email" placeholder="email@email.com">
+        </div> 
+    </form>
+    <script> 
+        function estiliza (elem_form) {
+            elem_form.style.backgroundColor = "white";
+            elem_form.style.color = "black";
+            elem_form.style.fontSize = 12;
+        }
+    let elem_firstname = document.getElementById ("firstname");
+    let elem_lastname = document.getElementById ("lastname");
+    let elem_birthday = document.getElementById ("birthday");
+    let elem_email = document.getElementById ("email");
+
+    </script>
+    <p> <button id="botao"> Enviar registro!</button> </p>
+    <script> 
+    //nao está funcionando e nao sei porque 
+        elem.botao = document.getElementById("botao");
+        elem.botao.style.width = 100;
+        elem.botao.style.height = 30;
+        elem.botao.style.color = "blue";
+        elem.botao.style.fontSize = 14;
+    </script>
+    
+
+   
 </body>
 </html>
