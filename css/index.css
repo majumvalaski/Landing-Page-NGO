@@ -1,11 +1,40 @@
-<style>
-    header {
-        background-color: #7C5E99;
-    } 
-        
-    a {
-        color: black;
-        font-size: 20px;
-    }
+*{
+    padding: 20;
+    margin: 0;
+}
+.cabecalho {
 
-</style>
+    width: 100%;
+    height: 50px;
+    background-color: #7C5E99;
+}
+
+.cabecalho img {
+
+    width: 80px;
+    height: 50px;
+    float: left;
+}
+.menu_inicial a {
+
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_inicial ul{
+    
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.menu_inicial li {
+    
+    float: right;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
