@@ -1,59 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page ONG crianças</title>
+
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
-    <h1> Lugar de criança é onde existe alegria </h1>
-    <img src ="/Users/mariajuliamanassesvalaski/Documents/DEV/Mentoria Dev /Primeiro projeto/img/logo_ong.png"/>
 
-    <h2> Será um prazer ter sua criança brincando 
-        <p>e aprendendo junto com a gente </p>
-    </h2>
-<<<<<<< HEAD
-
-    <h3> Registre os dados da sua criança</h3>
-
-    <form action="">
-        <div>
-            <p> <label> Nome </label> </p>
-            <input id = "firstname" placeholder="Maria">
-            <p> <label> Sobrenome </label> </p> 
-            <input id = "lastname" placeholder="Silva"> 
-            <p> <label> Data de nascimento </label> </p> 
-            <input id = "birthday" placeholder="DD/MM/AAAA">
-            <p> <label> Email do responsável legal </label> </p> 
-            <input id = "email" placeholder="email@email.com">
-        </div> 
-    </form>
-    <script> 
-        function estiliza (elem_form) {
-            elem_form.style.backgroundColor = "white";
-            elem_form.style.color = "black";
-            elem_form.style.fontSize = 12;
-        }
-    let elem_firstname = document.getElementById ("firstname");
-    let elem_lastname = document.getElementById ("lastname");
-    let elem_birthday = document.getElementById ("birthday");
-    let elem_email = document.getElementById ("email");
-
-    </script>
-    <p> <button id="botao"> Enviar registro!</button> </p>
-    <script> 
-    //nao está funcionando e nao sei porque 
-        elem.botao = document.getElementById("botao");
-        elem.botao.style.width = 100;
-        elem.botao.style.height = 30;
-        elem.botao.style.color = "blue";
-        elem.botao.style.fontSize = 14;
-    </script>
+<header class="cabecalho"> 
+    <img src="/Users/mariajuliamanassesvalaski/Documents/DEV/Mentoria Dev /Primeiro projeto/img/happy.png">
     
+    <nav class="menu_inicial"> 
+        <ul>
+            <li> <a href="">ONG Crianças</a> </li>
+            <li> <a href="">Dúvidas</a> </li>
+            <li> <a href="">Instagram</a> </li>
+            <li> <a href="">Linkedin</a> </li>
+        </ul>
+    </nav>
+</header>
 
-   
-=======
->>>>>>> 4c808fb11ba1f6172251928828e937384a108a19
+<body>
+    <table border="0" width="100%"
+    cellpadding="20"> 
+    <tr>
+    <td width="50%" valign = "top"> 
+
+        <h1> Lugar de criança é onde existe alegria! </h1>
+            <img src ="/Users/mariajuliamanassesvalaski/Documents/DEV/Mentoria Dev /Primeiro projeto/img/logo_ong.png"/>
+
+        <h2> Será um prazer ter sua criança  
+            <p>brincando e aprendendo junto com a gente </p>
+        </h2>
+
+    </td>
+
+    <td width="50%" valign = "down"> 
+        <h3> Registre os dados da sua criança</h3>
+
+        <form action="">
+            <div>
+                <p> <label> Nome </label> </p>
+                <input type="text" id = "firstname" placeholder="Maria">
+                <p> <label> Sobrenome </label> </p> 
+                <input type="text" id = "lastname" placeholder="Silva"> 
+                <p> <label> Data de nascimento </label> </p> 
+                <input type="date" id = "birthday" placeholder="DD/MM/AAAA">
+                <p> <label> Email do responsável legal </label> </p> 
+                <input type="email" id = "email" placeholder="email@email.com">
+            </div> 
+        </form>
+        <p> <button id="botao"> Enviar registro!</button> </p>
+    </td>
+    
+    
+</tr>
+</table>   
 </body>
 </html>
