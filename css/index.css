@@ -9,25 +9,27 @@
     background-color: #7C5E99;
 }
 
-.cabecalho img {
-
-    width: 80px;
-    height: 50px;
-    float: left;
+body {
+    background-color: #9886a9;
 }
+
 .menu_inicial a {
 
     font-size: 18px;
     text-decoration: none;
+    font-family: "Montserrat";
     color: white;
+    font-weight: 300;
+
 }
 
 .menu_inicial ul{
     
     float: right;
     list-style: none;
-    margin: 0;
+    margin-right: 10px;
     padding-right: 10px;
+   
 }
 
 .menu_inicial li {
@@ -35,6 +37,30 @@
     float: right;
     padding-left: 10px;
     padding-top: 10px;
+    margin-right: 20px;
 
 }
 
+button {
+    
+    margin-top: 40px;
+    width: 140px;
+    height: 30px;
+    background-color: #7C5E99;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    border-style:double;
+}
+
+#left {
+    
+    width: 140px;
+    height: 30px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
