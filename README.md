@@ -10,4 +10,4 @@ I put together my dream of working with kids and my front-end developer career.
 To have access to the landing page there is no need to download any software or anything.
 
 ## Deploy
-landingpagekids.netlify.app
+https://landingpagekids.netlify.app/
